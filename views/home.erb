@@ -1,7 +1,7 @@
-<h1>Welcome to Sinatra Cinema! Please browse our list of films.</h1>
+<h2>Welcome to Sinatra Cinema! Please browse our list of films.</h2>
 
 <ul>
  <% @films.each do |film| %>
- <li><a href="/films/:id"><%= film.title %></a></li>
+ <li><a href="/films/<%= film.id %>"><%= film.title %></a></li>
  <% end %>
 </ul>

@@ -1,0 +1,24 @@
+nav ul {
+  text-align: left;
+  font-family: arial;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  font-family: arial;
+  text-align: center;
+  font-size: 24px;
+  text-decoration: none;
+  line-height: 40pt;
+}
+
+body {
+  background-color: lightsteelblue;
+  background-image: url("https://www.familiesonline.co.uk/images/default-source/local/east-berkshire/in-the-know-images/inside-a-cinema.jpg?sfvrsn=3180389e_0")
+}
+
+h2{
+  font-family: arial;
+  text-align: center;
+}
