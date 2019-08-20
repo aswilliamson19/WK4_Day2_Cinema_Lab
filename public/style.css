@@ -1,24 +1,42 @@
-nav ul {
+nav ul a {
   text-align: left;
   font-family: arial;
   font-size: 18px;
+  color: white;
+  padding-top: 0px;
+  padding-left: 5px;
 }
 
-ul {
+ul a {
+  text-decoration: none;
   list-style-type: none;
   font-family: arial;
-  text-align: center;
   font-size: 24px;
-  text-decoration: none;
-  line-height: 40pt;
+  line-height: 30pt;
+  color: black;
+}
+ ul {
+  list-style-type: none;
+ }
+
+.film-titles {
+  text-align: center;
+  padding-top: 10px;
 }
 
 body {
-  background-color: lightsteelblue;
-  background-image: url("https://www.familiesonline.co.uk/images/default-source/local/east-berkshire/in-the-know-images/inside-a-cinema.jpg?sfvrsn=3180389e_0")
+  background-image: url("./inside-a-cinema.jpg");
+  background-size: 100%;
+}
+
+p {
+  color: black;
+  text-align: center;
+  padding-top: 140px;
 }
 
 h2{
   font-family: arial;
   text-align: center;
+  color: white;
 }
